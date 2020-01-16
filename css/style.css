@@ -1,0 +1,184 @@
+/**********
+*********************************************** NAVIGATION BAR
+**********/
+
+.navBgCustom{
+    background-color: #3a2a2a;
+}
+
+/***** Styling logo anchor tag *****/
+#logo{
+  text-decoration: none;
+}
+
+#logo h1{
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+#logo p{
+  letter-spacing: 1px;
+}
+
+/***** Navbar logo name *****/
+.logoName{
+  background: linear-gradient(to right, #f32170, #ffaa01, #2196f3, #ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/***** Navbar active color *****/
+#active{
+  color: #57ed19;
+  font-weight: 500;
+}
+
+/***** Navbar anchor color and transition *****/
+.nav a{
+  color: #d0cee3d1;
+  transition: 0.1s;
+  text-shadow: 2px 2px 7px #010000;
+}
+
+/***** Hover color on navbar links *****/
+.nav a:hover{
+ color: #57ed19;
+ font-weight: 500;
+}
+
+/***** Navbar line *****/
+.bar{
+  background-color: #a5811bd1;
+  width: 55px;
+  height: 2px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  transition: .2s;
+}
+
+/***** Navbar line hover effect *****/
+.nav a:nth-child(1):hover ~ .bar{
+  left: 18px;
+  width: 45px;
+  -webkit-filter: hue-rotate(360deg);
+}
+.nav a:nth-child(2):hover ~ .bar{
+  left: 97px;
+  width: 55px;
+  -webkit-filter: hue-rotate(360deg);
+}
+.nav a:nth-child(3):hover ~ .bar{
+  left: 189px;
+  width: 53px;
+  -webkit-filter: hue-rotate(360deg);
+}
+.nav a:nth-child(4):hover ~ .bar{
+  left: 276px;
+  width: 53px;
+  -webkit-filter: hue-rotate(360deg);
+}
+
+/***** Text background color animation property *****/
+.textAnimation{
+  animation-name: logoColour;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  font-family: sans-serif;
+  background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/***** Text color animation *****/
+@keyframes logoColour {
+  from{ -webkit-filter: hue-rotate(0deg); }
+  to{ -webkit-filter: hue-rotate(-360deg); }
+}
+
+
+/**********
+*********************************** FOOTER SECTION
+**********/
+
+#footer{
+  color: #868e96;
+  background-color: #000;
+  min-height: 60px;
+}
+
+
+/**********
+*********************************** PORTFOLIO PAGE
+**********/
+
+#myWorks .card-body{
+/*  background-color: #00408561;*/
+    background-color: #212529;
+}
+
+#myWorks .card-bodyTextColor{
+    color: #040f01; 
+}
+
+.projectDescription{
+    position: absolute;
+    height: 67%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: #0d2a41d9;
+    transition: .8s;
+}
+
+.projectDescription p{
+    position: relative;
+    top: 30%;
+    color: #fff;
+}
+
+.projectDescription{
+    height: 0px;
+    overflow: hidden;
+}
+
+.customBorderRadius{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+
+/**********
+********************************* ABOUT PAGE
+**********/
+
+#intro{
+  background-color: #3a2a2a;
+  border-radius: 0;
+  color: #fff;
+}
+
+#intro h1{ 
+    font-size: 2.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.grad{
+    transition: .5s;
+    background-image: linear-gradient(to right, #085078 0%, #85D8CE 51%, #085078 100%);
+    background-size: 200% auto;
+    color: #fff;
+    text-decoration: none;
+}
+
+.grad:hover{ background-position: right center}
+
+.content{
+    background-color: #fff;
+}
+
+
+
+
+
