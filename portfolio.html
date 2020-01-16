@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="roboto" content="noindex, nofollow" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .bar{
+        left: 96px;
+          width: 55px;
+      }
+    </style>
+
+    <title>Portfolio | Roshan Kumar</title>
+  </head>
+  <body>
+    <!-- Top Navbar -->
+    <div class="container-fluid navBgCustom">
+      <div class="row align-items-center">
+        <!-- Navbar Logo -->
+        <div class="col-12 col-sm-12 col-md-5 col-lg-4 col-xl-4 text-center">
+          <a href="index.html" id="logo">
+            <h1 class="logoName">Roshan Kumar</h1>
+            <p class="textAnimation">Computer Science Student</p>
+          </a>
+        </div>
+        <!-- Navbar Links -->
+        <div class="col-12 col-sm-12 col-md-7 col-lg-6 offset-lg-2 col-xl-6 offset-xl-2 d-flex justify-content-center">
+          <nav class="nav" style="position: relative;">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="portfolio.html" class="nav-link" id="active">Portfolio</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="https://drive.google.com/file/d/1lzrPBQbSCoVuiEDYwhFlzDIW3e_b9Ic7/view" target="_blank" download class="nav-link">Resume</a>
+            <div class="bar"></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar Ends -->
+    
+    <!-- Top Jumbotron -->
+    <div class="jumbotron" id="intro">
+       <div class="container">
+           <h1 class="textAnimation">Portfolio</h1>
+           <!-- Breadcum -->
+           <nav aria-label="breadcrumb">
+              <ol class="breadcrumb" style="background-color: transparent;">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+              </ol>
+            </nav>
+       </div>
+    </div>
+
+    <!-- My Project Works -->
+    <div class="container" id="myWorks">
+      <div class="row">
+       <!-- Fourth Project Starts -->
+         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5">
+          <div class="card customBorderRadius projectImage" style="width: 100%;">
+            <img src="images/gd-downloader.jpg" alt="Google Drive Downloaded Project" class="card-img-top customBorderRadius" onmouseover="projectHover('GDDownloader')" />
+
+        <!-- Project details start -->
+            <div id="GDDownloader" class="projectDescription text-center" onmouseout="projectOut('GDDownloader')">
+                <p onmouseout="projectOut('GDDownloader')">If you want to download one or more than one media store in google drive, in one click, then paste the link(s) here and enjoy! </p>
+            </div>
+        <!-- Project details Ends -->
+
+            <div class="card-body card-bodyTextColor">
+              <h6 style="margin: 0;" class="card-title"><a href="#" target="_blank" style="color:#f3f3f3">GD Downloader (Ongoing)</a></h6>
+              <small style="color:#f5f5f582">HTML5, CSS3, JavaScript, Bootstrap 4, PHP</small>
+            </div>
+          </div>
+        </div> 
+        <!-- Fourth Project Ends -->
+        
+    <!-- Third Project Starts -->
+         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5">
+          <div class="card customBorderRadius projectImage" style="width: 100%;">
+            <img src="images/e-commerce.jpg" alt="e-commerce project" class="card-img-top customBorderRadius" onmouseover="projectHover('ecommerce')" />
+            
+        <!-- Project details start -->
+            <div id="ecommerce" class="projectDescription text-center" onmouseout="projectOut('ecommerce')">
+                <p onmouseout="projectOut('ecommerce')">An e-commerce website where one can buy products such as shirts, watches, cameras, etc. in a very simple and easy way.</p>
+            </div>
+        <!-- Project details Ends -->
+           
+            <div class="card-body card-bodyTextColor">
+              <h6 style="margin: 0;" class="card-title"><a href="https://roshanecommerce.000webhostapp.com/" target="_blank" style="color:#f3f3f3">Lifestyle Store</a></h6>
+              <small style="color:#f5f5f582">HTML5, CSS3, JavaScript, Bootstrap 4, PHP, SQL</small>
+            </div>
+          </div>
+        </div> 
+    <!-- Third Project Ends -->
+     
+    <!-- Second Project Starts -->
+     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5">
+      <div class="card customBorderRadius projectImage" style="width: 100%;">
+        <img src="images/image-gallery.jpg" alt="image gallery project" class="card-img-top customBorderRadius" onmouseover="projectHover('imageGallery')" />
+
+    <!-- Project details start -->
+        <div id="imageGallery" class="projectDescription text-center" onmouseout="projectOut('imageGallery')">
+            <p onmouseout="projectOut('imageGallery')">An image gallery website where one can online upload images, delete, comment and can do much more stuff.</p>
+        </div>
+    <!-- Project details Ends -->
+
+        <div class="card-body card-bodyTextColor">
+          <h6 style="margin: 0;" class="card-title"><a href="http://enigmahub.000webhostapp.com/" target="_blank" style="color:#f3f3f3">Image Gallery</a></h6>
+          <small style="color:#f5f5f582">HTML5, CSS3, JavaScript, Bootstrap 4, PHP, SQL</small>
+        </div>
+      </div>
+    </div> 
+    <!-- Second Project Ends -->
+    
+    <!-- First Project Work -->
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mt-5">
+          <div class="card customBorderRadius projectImage" style="width: 100%;">
+            <img src="images/simpleCalculator.png" alt="simple calculator project" class="card-img-top customBorderRadius" onmouseover="projectHover('simpleCalculator')" />
+            
+        <!-- Project details start -->
+            <div id="simpleCalculator" class="projectDescription text-center" onmouseout="projectOut('simpleCalculator')">
+                <p onmouseout="projectOut('simpleCalculator')">A simple calculator to perform basics mathematical calculations such as addition, substraction, multiplication, etc.</p>
+            </div>
+        <!-- Project details Ends -->
+           
+            <div class="card-body card-bodyTextColor">
+              <h6 style="margin: 0;" class="card-title"><a href="https://rksimplecalculator.netlify.com/" target="_blank" style="color:#f3f3f3">Simple Calculator</a></h6>
+              <small style="color:#f5f5f582">HTML5, CSS3, JavaScript</small>
+            </div>
+          </div>
+        </div>
+    <!-- First Project Ends -->
+      </div>
+    </div>
+    <!-- My Project Work Ends -->
+
+    <!-- Footer -->
+    <div class="container-fluid mt-5 pt-2" id="footer">
+      <div class="row align-items-center">
+        <!-- Footer Copyright Text -->
+        <div class="col-sm-12 col-md-6 col-lg-5 col-xl-5 pr-xl-5">
+          <div class="d-flex justify-content-center align-items-center">
+            <p class="textAnimation">Copyright &copy; 2019 Roshan Kumar Portfolio.</p>
+          </div>
+        </div>
+        <!-- Footer Contact Details -->
+        <div class="col-sm-12 col-md-5 offset-md-1 col-lg-5 offset-lg-2 col-xl-4 offset-xl-3 text-center">
+          <p class="textAnimation" style="margin: 0;"><i class="fas fa-envelope"></i> roushan24kumar@gmail.com</p>
+          <p class="textAnimation"><i class="fas fa-phone-alt"></i> +91 6202375246</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Ends -->
+    
+    <script>
+        
+        function projectHover(value){ 
+            if(value == 'simpleCalculator'){
+                document.getElementById("simpleCalculator").style.height = "67%";
+            }
+            if(value == 'ecommerce'){
+                document.getElementById("ecommerce").style.height = "67%";
+            }
+            if(value == 'imageGallery'){
+                document.getElementById("imageGallery").style.height = "67%";
+            }
+            if(value == 'GDDownloader'){
+                document.getElementById("GDDownloader").style.height = "67%";
+            }
+        }
+        
+        function projectOut(item){
+            if(item == 'simpleCalculator'){
+                document.getElementById("simpleCalculator").style.height = "0px";
+            }
+            if(item == 'ecommerce'){
+                document.getElementById("ecommerce").style.height = "0px";
+            }
+            if(item == 'imageGallery'){
+                document.getElementById("imageGallery").style.height = "0px";
+            }
+            if(item == 'GDDownloader'){
+                document.getElementById("GDDownloader").style.height = "0px";
+            }
+        }
+        
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
